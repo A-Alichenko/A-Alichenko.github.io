@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head><meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>1</title>
+  
+</head>
+<body>
+    <ul>
+      <li><a href="http://kubsu.ru/">Ссылка на Кубгу</a></li>
+      
+      <li><a href="https://kubsu.ru/">Ссылка на Кубгу через https</a></li>
+      
+      <li> <a href="https://youtu.be/qqGl0brwTSk?si=mhzTq-hsiDxhw-q6">
+         <img src="https://a.d-cd.net/9481856s-1920.jpg" width="200" height="200" width="200">
+      </a> </li>
+      <li> <a href="/vnutri.html">Внутренняя страница</a> </li>
+      <li> <a href="/index.html">Главная страница</a> </li>
+      <li> <nav> <a href="#about">Фрагмент </a> </li>
+         </nav>
+      </header>
+         </li>
+      <li> <a href="https://emptyne.github.io/index.html?1&2&3">3параметра</a> </li>
+      <li> <a href="https://emptyne.github.io/index.html#yes" class="site" target="_blank">Параметр с id</a></li>
+      <li> <a href="./dop.html"> Относительная ссылка на страницу  в каталоге  </a> </li>
+      <li> <a href="./about/yes1.html">Ссылка относительная на страницу в каталоге about</a></li>
+      <li> <a href="../about/yes1.html"> Относительная на страницу выше текущего</a></li>
+      <li> <a href="./Katalog/Katalog1/new1.html"> Относительная на страницу выше текущего на 2</a></li>
+      <li> <p>Здесь <a href="/Kont.html">контекстная ссылка </a></p></li>
+      <li> <a href="/frag.html#target">Фрагмент строннего сайта</a></li>
+      <li>    
+         <map name="clickable">
+            <area shape="circle" coords="309,164,60" href="https://youtu.be/qa5wIivTuxY?si=-3ofDEOefsVxruOj">
+            <area shape="rect" coords="185,225,268,352" href="https://youtu.be/DMGWsnWCIq8?si=YBLASLK57nP0mKgp">
+          </map>
+          <img usemap="#clickable" src="https://koshka.top/uploads/posts/2021-12/1638847770_82-koshka-top-p-ochen-khoroshie-kotiki-87.jpg" alt="picture" width="500px" height="300px">
+         </li> 
+      <li> <a href="">Пустая ссылка</a></li>
+      <li> <a>Нету href</a> </li>
+      <li> <a href="https://vk.com/al_feed.php" rel="nofollow">Ссылка закрытая</a></li>
+      <li> <a href="https://vk.com/al_feed.php"rel="nofollow"><noindex>Ссылка неиндексирующая</noindex></a></li>   
+      <li>
+         
+         <ol>
+            <li><a href="https://www.youtube.com/watch?v=d-diB65scQU" title="1ссылка">1ссылка</a></li>
+            <li> <a href="https://youtu.be/FpouoDphV-I?si=aVSB-kZQobUGSH1T" title="2ссылка">2ссылка</a></li>
+
+         </ol> </li>
+      <li> <a href="ftp://usr12:pwrd3@test.rebex.net/Temp/file.txt">Ftp сервер</a></li>
+
+      <h2>Форма поля</h2>
+      <form action="/" method="POST">
+         <label>
+            ФИО:<br />
+            <input name="field-name-1"
+              value="ФИО" />
+          </label><br />
+         <label>
+            Телефон:<br />
+            <input name="field-tell"
+              type="tell"
+              placeholder="Введите номер телефона" />
+          </label><br />
+         <label>
+            Текстовое поле email:<br />
+            <input name="field-email"
+              type="email"
+              placeholder="Введите email" />
+          </label><br />
+         <label>
+            Дата рождения:<br />
+            <input name="field-date"
+              value="2019-08-13"
+              type="date" />
+          </label><br />
+          Пол:<br />
+         <label><input type="radio" checked="checked"
+            name="radio-group-1" value="Мужской" />
+            Мужской</label>
+         <label><input type="radio"
+            name="radio-group-1" value="Женский" />
+            Женский</label><br />
+         <label>
+            Любимый язык программирования:
+            <br />
+            <select name="field-name-4[]"
+              multiple="multiple">
+              <option value="Значение1">Pascal</option>
+              <option value="Значение2">C</option>
+              <option value="Значение3">C++</option>
+              <option value="Значение4"selected="selected">JavaScript</option>
+              <option value="Значение5"selected="selected">PHP</option>
+              <option value="Значение6">Python</option>
+              <option value="Значение7">Java</option>
+              <option value="Значение8">Haskel</option>
+              <option value="Значение9">Clojure</option>
+              <option value="Значение10">Prolog</option>
+              <option value="Значение11">Scala</option>
+            </select>
+          </label><br />
+         <label>
+            Биография:<br />
+            <textarea name="field-name-2">Напишите о себе</textarea>
+          </label><br />
+          С контрактом ознакомлен(а):<br />
+         <label><input type="checkbox" checked="checked"
+            name="check-1" />
+            Подпись</label><br />
+            <input type="submit" value="Сохранить" />
+         </form>
+   </ul> 
+   <main>
+      <section id="about">
+      <h3>Вы перешли на фрагмент</h3>
+      </section>
+      <sectin id="yes">
+         <h3>Переход по Id</h3>
+      </sectin>
+      
+</body>
+</html>
