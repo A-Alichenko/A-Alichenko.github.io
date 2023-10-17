@@ -33,6 +33,7 @@ body{
     background-color: #5F4A8C;
     margin: 0 auto;
     padding: 10px;
+    display: flex;
 }
 
 .block5{
@@ -87,39 +88,40 @@ a:visited{
 
     .block1{
         width: 100%; 
-        background-color: #7b9471;
+        background-color: #457350;
         padding: 10px; 
-        height: 110px;
+        height: 130px;
     }
     
     .img1{
+        float:left; 
         margin:10px; 
         width:100px; 
         height: 100px;
     }
     
     .block2{
-        background-color:#7c6d8d;
+        background-color:#976DF2;
         padding: 10px;
     }
     
     .block3{
-         max-width: 960px;
-         background-color:  #b9b9b9;
-         margin: 0 auto;
-         margin-top: 20px;
-         padding: 10px;
-    }
+        max-width: 960px;
+        background-color: #262626;
+        margin: 0 auto;
+        margin-top: 20px;
+        padding: 10px;
+   }
+   
     .table1{
         order: -2;
     }
     
     .block4{
         max-width: 960px;
-        background-color:  #b9b9b9;
+        background-color: #5F4A8C;
         margin: 0 auto;
         padding: 10px;
-    
     }
 
     .block5{
