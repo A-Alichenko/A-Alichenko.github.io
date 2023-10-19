@@ -1,7 +1,9 @@
-
+body{
+    background-color: #5F4A8C;
+}
 .block1{
     width: 100%; 
-    background-color: #7b9471	;
+    background-color: #457350	;
     padding: 10px; 
     height: 130px;
 }
@@ -14,13 +16,13 @@
 }
 
 .block2{
-    background-color: #7c6d8d;
+    background-color:#976DF2;
     padding: 10px;
 }
 
 .block3{
      max-width: 960px;
-     background-color: #b9b9b9;
+     background-color: #262626;
      margin: 0 auto;
      margin-top: 20px;
      padding: 10px;
@@ -28,24 +30,32 @@
 
 .block4{
     max-width: 960px;
-    background-color: #b9b9b9;
+    background-color: #5F4A8C;
     margin: 0 auto;
     padding: 10px;
     display: flex;
 }
 
+.block5{
+    width: 100%; 
+    background-color: #313640;
+    padding: 10px; 
+    height: 110px;
+}
 
 .text1{
-    color: #4a4339;
+    color: #D9D3C7;
 
 }
 
+.text2
+
 a:link{
-    color:#4a4339;
+    color: #59be45;
 }
 
 a:visited{
-    color: #050505;
+    color: #BFADD9;
 }
 
 #navbar {
@@ -58,10 +68,10 @@ a:visited{
 .table{
     border-collapse: collapse ;
   }
-.th{border: 1px solid #F2Bf5e;
-        background: #090909;}
-.td{border: 1px solid #F2Bf5e;
-        background: #4d1717;}
+.th{border: 1px solid #000000;
+        background: #032570;}
+.td{border: 1px solid #000000;
+        background: #43399c;}
 
 .container {
             max-width: 900px;
@@ -78,40 +88,50 @@ a:visited{
 
     .block1{
         width: 100%; 
-        background-color: #090909;
+        background-color: #457350;
         padding: 10px; 
-        height: 110px;
+        height: 130px;
     }
     
     .img1{
+        float:left; 
         margin:10px; 
         width:100px; 
         height: 100px;
     }
     
     .block2{
-        background-color: #F2Bf5e;
+        background-color:#976DF2;
         padding: 10px;
     }
     
     .block3{
-         max-width: 960px;
-         background-color: #595959;
-         margin: 0 auto;
-         margin-top: 20px;
-         padding: 10px;
-    }
+        max-width: 960px;
+        background-color: #262626;
+        margin: 0 auto;
+        margin-top: 20px;
+        padding: 10px;
+   }
+   
     .table1{
-        order: -2;
+        order: -1;
     }
     
     .block4{
         max-width: 960px;
-        background-color: #595959;
+        background-color: #5F4A8C;
         margin: 0 auto;
         padding: 10px;
-    
+        display: flex;
     }
+
+    .block5{
+        width: 100%; 
+        background-color: #313640;
+        padding: 10px; 
+        height: 110px;
+    }
+
     #navbar {
         margin: 0;
         padding: 0;
