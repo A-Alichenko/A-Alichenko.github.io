@@ -29,7 +29,6 @@ body{
 }
 
 .block4{
-    max-width: 960px;
     background-color: #5F4A8C;
     margin: 0 auto;
     padding: 10px;
@@ -48,10 +47,9 @@ body{
 
 }
 
-.text2
 
 a:link{
-    color: #59be45;
+    color: #1d8309;
 }
 
 a:visited{
