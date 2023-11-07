@@ -184,6 +184,23 @@
             Подпись</label><br />
             <input type="submit" value="Сохранить" /></div>
          </form>
+         <section>
+            <div class="text1">
+            <div class="block3">
+               <form onsubmit="return false">
+                 <input id="num1" />
+                 <select id="select1">
+                  <option value="1500">Акции газпрома 1500 руб</option>
+                  <option value="20">Акции эпл 20руб</option>
+                  <option value="10000">Акции сбер  10000 руб</option>
+                 </select>
+                 
+                 <button type="submit" onclick="Math1()">Посчитать</button>
+                 <p id="result"></p>
+               </form>  
+            </div> 
+            </div>
+         </section>
    </ul>   
    </section>
       <section id="about">
@@ -200,5 +217,16 @@
       <p class="text1"> (c) А.Аличенко </p>
       </div>
    </footer>
+   <script>
+      function Math1(){
+         var r;
+       var num1=Number(document.getElementById("num1").value);
+      var num2=Number(document.getElementById("select1").value);
+      if(num1<0)  r="Отрицательное число";
+      if (num1>=0)   r=num1*num2;
+      document.getElementById("result").innerHTML=r;
+      }
+
+      </script>
 </body>
 </html>
