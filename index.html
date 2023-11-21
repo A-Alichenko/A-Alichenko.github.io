@@ -6,7 +6,7 @@
    <link rel = "stylesheet"href = "stile.css">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>1</title>
-  
+   <script src="6.js"></script>
 </head>
 <body style="margin:0;">
    <header>
@@ -202,6 +202,31 @@
             </div>
          </section>
    </ul>   
+   </section>
+   <section>
+      <div class="text1">
+      <div class="block3">
+      <input id="num2" />
+        <p> Тип товара:</p>
+         <form>
+           <select name="prodType">
+             <option value="1">Porshe</option>
+             <option value="2">Mersedes</option>
+             <option value="3">BMW</option>
+           </select>
+           <div id="radios">
+             <label><input type="radio" name="prodOptions" value="option1"> Стандарт</label>
+             <label><input type="radio" name="prodOptions" value="option2"> Премиум</label>
+             <label><input type="radio" name="prodOptions" value="option3"> Люкс</label>
+           </div>
+           <div id="checkboxes">
+             <label><input type="checkbox" name="prop1">Подогрев руля</label>
+             <label><input type="checkbox" name="prop2">Зимняя резина</label>
+           </div>
+         </form>
+         <button type="submit" onclick="updatePrice()">Посчитать</button>
+         <p id="prodPrice"></p>
+      </div></div>
    </section>
       <section id="about">
          <div class = "text1">
